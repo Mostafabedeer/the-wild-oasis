@@ -1,7 +1,5 @@
 import { createContext, useContext } from "react";
-import { useSearchParams } from "react-router-dom";
 import styled from "styled-components";
-import { PageSize } from "../constant/constant";
 
 const StyledTable = styled.div`
   border: 1px solid var(--color-grey-200);

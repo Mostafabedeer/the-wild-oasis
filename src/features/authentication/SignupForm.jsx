@@ -15,7 +15,6 @@ function SignupForm() {
     formState: { errors },
     handleSubmit,
     getValues,
-    reset,
   } = useForm();
 
   function onSubmit({ fullName, email, password }) {
