@@ -17,6 +17,8 @@ function UpdateSettingsForm() {
   } = useSettings();
   const { isUpdating, updateSetting } = useUpdateSetting();
 
+  if (isPending || isUpdating) return <Spinner />;
+
   function handleUpdateSetting(e, setting) {
     const { value } = e.target;
     if (!value) return;
@@ -24,7 +26,6 @@ function UpdateSettingsForm() {
       [setting]: value,
     });
   }
-  if (isPending) return <Spinner />;
   return (
     <Form>
       <FormRow label='Minimum nights/booking'>
