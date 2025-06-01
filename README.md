@@ -19,6 +19,9 @@ This admin dashboard is a comprehensive management panel designed for hotel admi
   - Occupancy trends
 
 ## Demo
+
+the-wild-oasis-phi-blush.vercel.app
+
   - ![demo_gif](https://github.com/user-attachments/assets/87636f13-9e26-4ac3-89d8-fa872d1f1ece)
 
 ## Tech Stack
